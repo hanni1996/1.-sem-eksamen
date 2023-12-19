@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="forside-style.css" />
+  </head>
+  <body>
+    <div class="burgermenu" onclick="toggleMenu()">
+      <img class="line" src="img/line-19.svg" />
+      <img class="line-2" src="img/line-22.svg" />
+      <img class="line-3" src="img/line-23.svg" />
+    </div>
+    <div id="userMenu" class="user-menu" style="display: none;">
+      <a href="forside.html">Hjem</a>
+      <a href="om.html">Om Os</a>
+      <a href="ipa.html">Purevibe IPA</a>
+      <a href="ale.html">Vitavile Ale</a>
+      <a href="event.html">Event</a>
+    </div>
+    <div class="forside-mockup">
+      <div class="div">
+        <div class="overlap">
+          <footer class="footer">
+            <div class="overlap-group">
+              <div class="rectangle"></div>
+              <div class="adresse-tlf-email">Adresse<br />tlf.<br />email.</div>
+              <img class="vector" src="img/vector.svg" />
+              <img class="img" src="img/vector-1.svg" />
+            </div>
+          </footer>
+          <img class="beerglas" src="img/beerglas.png" />
+          <div class="skygge">
+            <div class="OM-alkoholfri">OM<br />ALKOHOLFRI<br />ØLSMAGNING</div>
+          </div>
+        </div>
+        <div class="burgermenu">
+          <img class="line" src="img/line-19.svg" />
+          <img class="line-2" src="img/line-22.svg" />
+          <img class="line-3" src="img/line-23.svg" />
+        </div>
+        <div class="sgeglas">
+          <div class="overlap-2">
+            <div class="fglas"></div>
+            <img class="fglas-streg" src="img/fglas-streg.svg" />
+          </div>
+        </div>
+        <div class="skygge-wrapper">
+          <div class="om-tr-jborg-bryggeri-wrapper">
+            <div class="om-tr-jborg-bryggeri">OM <br />TRØJBORG<br />BRYGGERI</div>
+          </div>
+        </div>
+        <img class="logo" src="img/logo-1.png">
+        <a href="forside.html">
+          <img class="logo" src="img/logo-1.png" alt="Trøjborg Bryggeri Logo" />
+        </a>
+        <img class="purevibe-IPA" src="img/purevibe-ipa-2.png" />
+        <a href="ipa.html">
+          <img class="purevibe-IPA" src="img/purevibe-ipa-2.png" alt="IPA" />
+        </a>
+        <img class="vitawild-ale" src="img/vitawild-ale-2.png" />
+        <a href="ale.html">
+          <img class="vitawild-ale" src="img/vitawild-ale-2.png" alt="Ale" />
+        </a>
+        <div class="text-wrapper">PUREVIBE IPA</div>
+        <div class="vitawild-ale-2">VITAWILD ALE</div>
+      </div>
+    </div>
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("userMenu");
+        if (menu.style.display === "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+      </script>
+  </body>
+</html>

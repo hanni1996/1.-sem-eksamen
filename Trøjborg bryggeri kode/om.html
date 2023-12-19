@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="om-style.css" />
+  </head>
+  <body>
+    <div class="burgermenu" onclick="toggleMenu()">
+      <img class="line" src="img/line-19.svg" />
+      <img class="line-2" src="img/line-22.svg" />
+      <img class="line-3" src="img/line-23.svg" />
+    </div>
+    <div id="userMenu" class="user-menu" style="display: none;">
+      <a href="forside.html">Hjem</a>
+      <a href="om.html">Om Os</a>
+      <a href="ipa.html">Purevibe IPA</a>
+      <a href="ale.html">Vitavile Ale</a>
+      <a href="event.html">Event</a>
+    </div>
+    <div class="trjborg-bryggeri">
+      <div class="div">
+        <p class="om-tr-jborg-bryggeri">
+          <span class="text-wrapper">Om Trøjborg Bryggeri<br /></span>
+          <span class="span"><br /></span>
+          <span class="text-wrapper-2"
+            >Trøjborg Bryggeri er et ung Dansk håndværksbryggeri grundlagt i 2018. Hos Trøjborg Bryggeri laver vi
+            nutidig øl. Vi brygger en bred vifte af potente, provokerende, friske og frugtige øl. Vi på Trøjborg
+            Bryggeri er drevet af en vision om at transformere øloplevelsen og udfordre konventionerne ved at skabe en
+            verden, hvor alkoholfri øl er synonymt med smagsoplevelse, sundhed og social glæde. Vores mission er at
+            brygge og levere en uovertruffen række alkoholfri øl, der ikke kun appellerer til sanserne, men også
+            opfylder behovet for et sundere alternativ, uden at gå på kompromis med den autentiske ølsmag. Vi forpligter
+            os til bæredygtighed, kvalitet og innovation for at opnå en global forandring i opfattelsen af alkoholfri
+            øl, hvor vores produkter bringer mennesker sammen og inspirerer til en sund og social livsstil.</span
+          >
+        </p>
+        <div class="burgermenu">
+          <img class="line" src="img/line-23.svg" />
+          <img class="img" src="img/line-22.svg" />
+          <img class="line-2" src="img/line-23.svg" />
+        </div>
+        <div class="sgeglas">
+          <div class="overlap-group">
+            <div class="fglas"></div>
+            <img class="fglas-streg" src="img/fglas-streg.svg" />
+          </div>
+        </div>
+        <div class="overlap">
+          <img class="billede" src="img/billede.svg" /> <img class="img-2" src="img/77295f906dc64b79bc5b54-1.png" />
+        </div>
+        <footer class="footer">
+          <div class="overlap-2">
+            <div class="rectangle"></div>
+            <div class="adresse-tlf-email">Adresse<br />tlf.<br />email.</div>
+            <img class="vector" src="img/vector-1.svg" />
+            <img class="vector-2" src="img/vector.svg" />
+          </div>
+        </footer>
+        <img class="logo" src="img/logo-1.png" />
+      </div>
+    </div>
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("userMenu");
+        if (menu.style.display === "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+.trjborg-bryggeri {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.trjborg-bryggeri .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 430px;
+  height: 1488px;
+  position: relative;
+}
+
+.trjborg-bryggeri .om-tr-jborg-bryggeri {
+  position: absolute;
+  width: 370px;
+  top: 735px;
+  left: 31px;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.trjborg-bryggeri .text-wrapper {
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.trjborg-bryggeri .span {
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.trjborg-bryggeri .text-wrapper-2 {
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.trjborg-bryggeri .burgermenu {
+  position: absolute;
+  width: 35px;
+  height: 23px;
+  top: 67px;
+  left: 30px;
+}
+
+.trjborg-bryggeri .line {
+  top: -2px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.trjborg-bryggeri .img {
+  top: 10px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.trjborg-bryggeri .line-2 {
+  top: 21px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.trjborg-bryggeri .sgeglas {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  top: 65px;
+  left: 375px;
+}
+
+.trjborg-bryggeri .overlap-group {
+  position: relative;
+  width: 26px;
+  height: 25px;
+}
+
+.trjborg-bryggeri .fglas {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  border-radius: 9.19px;
+  border: 3px solid;
+  border-color: #db2205;
+}
+
+.trjborg-bryggeri .fglas-streg {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 14px;
+  left: 15px;
+}
+
+.trjborg-bryggeri .overlap {
+  position: absolute;
+  width: 430px;
+  height: 526px;
+  top: 175px;
+  left: 0;
+}
+
+.trjborg-bryggeri .billede {
+  position: absolute;
+  width: 430px;
+  height: 524px;
+  top: 1px;
+  left: 0;
+}
+
+.trjborg-bryggeri .img-2 {
+  position: absolute;
+  width: 429px;
+  height: 526px;
+  top: 0;
+  left: 1px;
+}
+
+.trjborg-bryggeri .footer {
+  position: absolute;
+  width: 432px;
+  height: 219px;
+  top: 1269px;
+  left: 1px;
+  background-color: transparent;
+}
+
+.trjborg-bryggeri .overlap-2 {
+  position: relative;
+  width: 430px;
+  height: 219px;
+}
+
+.trjborg-bryggeri .rectangle {
+  position: absolute;
+  width: 430px;
+  height: 215px;
+  top: 4px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.trjborg-bryggeri .adresse-tlf-email {
+  position: absolute;
+  width: 64px;
+  top: 0;
+  left: 24px;
+  font-family: "Tahoma-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 59px;
+}
+
+.trjborg-bryggeri .vector {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 84px;
+  left: 337px;
+}
+
+.trjborg-bryggeri .vector-2 {
+  position: absolute;
+  width: 43px;
+  height: 40px;
+  top: 84px;
+  left: 275px;
+}
+
+.trjborg-bryggeri .logo {
+  position: absolute;
+  width: 52px;
+  height: 68px;
+  top: 56px;
+  left: 189px;
+  object-fit: cover;
+}
+user-menu {
+  position: absolute;
+  top: 50px; 
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.user-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-menu a:hover {
+  background-color: #f2f2f2;
+}
+user-menu {
+  position: absolute;
+  top: 50px; 
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.user-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-menu a:hover {
+  background-color: #f2f2f2;
+}

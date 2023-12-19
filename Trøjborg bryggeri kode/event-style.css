@@ -1,0 +1,223 @@
+.lsmagning-mockup {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.lsmagning-mockup .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 430px;
+  height: 2171px;
+  position: relative;
+}
+
+.lsmagning-mockup .kom-til-alkoholfri {
+  position: absolute;
+  width: 370px;
+  top: 735px;
+  left: 31px;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+
+.lsmagning-mockup .text-wrapper {
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.lsmagning-mockup .span {
+  font-family: "Inter", Helvetica;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.lsmagning-mockup .text-wrapper-2 {
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.lsmagning-mockup .text-wrapper-3 {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.lsmagning-mockup .overlap {
+  position: absolute;
+  width: 430px;
+  height: 526px;
+  top: 174px;
+  left: 0;
+}
+
+.lsmagning-mockup .billede {
+  position: absolute;
+  width: 430px;
+  height: 524px;
+  top: 2px;
+  left: 0;
+}
+
+.lsmagning-mockup .img {
+  position: absolute;
+  width: 430px;
+  height: 526px;
+  top: 0;
+  left: 0;
+}
+
+.lsmagning-mockup .burgermenu {
+  position: absolute;
+  width: 35px;
+  height: 23px;
+  top: 67px;
+  left: 30px;
+}
+
+.lsmagning-mockup .line {
+  top: -2px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.lsmagning-mockup .line-2 {
+  top: 10px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.lsmagning-mockup .line-3 {
+  top: 21px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.lsmagning-mockup .sgeglas {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  top: 65px;
+  left: 375px;
+}
+
+.lsmagning-mockup .overlap-group {
+  position: relative;
+  width: 26px;
+  height: 25px;
+}
+
+.lsmagning-mockup .fglas {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  border-radius: 9.19px;
+  border: 3px solid;
+  border-color: #db2205;
+}
+
+.lsmagning-mockup .fglas-streg {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 14px;
+  left: 15px;
+}
+
+.lsmagning-mockup .footer {
+  position: absolute;
+  width: 432px;
+  height: 219px;
+  top: 1952px;
+  left: 0;
+  background-color: transparent;
+}
+
+.lsmagning-mockup .overlap-2 {
+  position: relative;
+  width: 430px;
+  height: 219px;
+}
+
+.lsmagning-mockup .rectangle {
+  position: absolute;
+  width: 430px;
+  height: 215px;
+  top: 4px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.lsmagning-mockup .adresse-tlf-email {
+  position: absolute;
+  width: 64px;
+  top: 0;
+  left: 24px;
+  font-family: "Tahoma-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 59px;
+}
+
+.lsmagning-mockup .vector {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 84px;
+  left: 337px;
+}
+
+.lsmagning-mockup .vector-2 {
+  position: absolute;
+  width: 43px;
+  height: 40px;
+  top: 84px;
+  left: 275px;
+}
+
+.lsmagning-mockup .logo {
+  position: absolute;
+  width: 52px;
+  height: 68px;
+  top: 56px;
+  left: 189px;
+  object-fit: cover;
+}
+user-menu {
+  position: absolute;
+  top: 50px; 
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.user-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-menu a:hover {
+  background-color: #f2f2f2;
+}

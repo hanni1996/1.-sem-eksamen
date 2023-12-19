@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="ale-style.css" />
+  </head>
+  <body>
+    <div class="burgermenu" onclick="toggleMenu()">
+      <img class="line" src="img/line-19.svg" />
+      <img class="line-2" src="img/line-22.svg" />
+      <img class="line-3" src="img/line-23.svg" />
+    </div>
+    <div id="userMenu" class="user-menu" style="display: none;">
+      <a href="forside.html">Hjem</a>
+      <a href="om.html">Om Os</a>
+      <a href="ipa.html">Purevibe IPA</a>
+      <a href="ale.html">Vitavile Ale</a>
+      <a href="event.html">Event</a>
+    </div>
+    <div class="produktside-mockup">
+      <div class="div">
+        <div class="burgermenu">
+          <img class="line" src="img/line-23.svg" />
+          <img class="img" src="img/line-22.svg" />
+          <img class="line-2" src="img/line-23.svg" />
+        </div>
+        <div class="sgeglas">
+          <div class="overlap-group">
+            <div class="fglas"></div>
+            <img class="fglas-streg" src="img/fglas-streg.svg" />
+          </div>
+        </div>
+        <div class="overlap"><img class="vitawild-ale" src="img/vitawild-ale-1.png" /></div>
+        <div class="text-wrapper">VITAWILD ALE</div>
+        <p class="p">
+          Denne håndværksøl er brygget med omhu ved hjælp af vores cirkulære metoder og holdning. Vi mener, at
+          håndværksøl og brygning fortjener opmærksomhed på detaljer. Vigtigst af alt, smag og bæredygtighed.
+        </p>
+        <div class="overlap-2">
+          <div class="text-wrapper-2">Størrelse</div>
+          <div class="text-wrapper-3">Alkoholprocent</div>
+          <p class="l-type"><span class="span">Øl-</span> <span class="span">type</span></p>
+          <div class="text-wrapper-4">Farve</div>
+          <div class="element-CL">33 Cl</div>
+          <div class="text-wrapper-5">0%</div>
+          <div class="text-wrapper-6">Wild Ale</div>
+          <div class="l-farver">
+            <div class="ellipse"></div>
+            <div class="ellipse-2"></div>
+            <div class="ellipse-3"></div>
+            <div class="ellipse-4"></div>
+            <div class="ellipse-5"></div>
+            <div class="ellipse-6"></div>
+            <div class="ellipse-7"></div>
+            <div class="ellipse-8"></div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="overlap-3">
+            <div class="rectangle"></div>
+            <div class="adresse-tlf-email">Adresse<br />tlf.<br />email.</div>
+            <img class="vector" src="img/vector-1.svg" />
+            <img class="vector-2" src="img/vector.svg" />
+          </div>
+        </footer>
+        <img class="logo" src="img/logo-1.png" />
+      </div>
+    </div>
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("userMenu");
+        if (menu.style.display === "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,411 @@
+.produktside-mockup {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.produktside-mockup .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 430px;
+  height: 1439px;
+  position: relative;
+}
+
+.produktside-mockup .burgermenu {
+  position: absolute;
+  width: 35px;
+  height: 23px;
+  top: 67px;
+  left: 30px;
+}
+
+.produktside-mockup .line {
+  top: -2px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.produktside-mockup .img {
+  top: 10px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.produktside-mockup .line-2 {
+  top: 21px;
+  position: absolute;
+  width: 35px;
+  height: 2px;
+  left: 0;
+}
+
+.produktside-mockup .sgeglas {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  top: 65px;
+  left: 375px;
+}
+
+.produktside-mockup .overlap-group {
+  position: relative;
+  width: 26px;
+  height: 25px;
+}
+
+.produktside-mockup .fglas {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  border-radius: 9.19px;
+  border: 3px solid;
+  border-color: #db2205;
+}
+
+.produktside-mockup .fglas-streg {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 14px;
+  left: 15px;
+}
+
+.produktside-mockup .overlap {
+  position: absolute;
+  width: 430px;
+  height: 524px;
+  top: 176px;
+  left: 0;
+  background-image: url(./img/billede.svg);
+  background-size: 100% 100%;
+}
+
+.produktside-mockup .vitawild-ale {
+  position: absolute;
+  width: 430px;
+  height: 524px;
+  top: 0;
+  left: 0;
+}
+
+.produktside-mockup .text-wrapper {
+  position: absolute;
+  width: 278px;
+  top: 733px;
+  left: 30px;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 59px;
+  white-space: nowrap;
+}
+
+.produktside-mockup .p {
+  position: absolute;
+  width: 359px;
+  top: 793px;
+  left: 30px;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.produktside-mockup .overlap-2 {
+  position: absolute;
+  width: 371px;
+  height: 237px;
+  top: 935px;
+  left: 30px;
+  background-image: url(./img/streger.png);
+  background-size: 100% 100%;
+}
+
+.produktside-mockup .text-wrapper-2 {
+  position: absolute;
+  width: 89px;
+  top: 26px;
+  left: 0;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .text-wrapper-3 {
+  position: absolute;
+  width: 118px;
+  top: 85px;
+  left: 0;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .l-type {
+  position: absolute;
+  width: 118px;
+  top: 144px;
+  left: 0;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .span {
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .text-wrapper-4 {
+  position: absolute;
+  width: 118px;
+  top: 203px;
+  left: 0;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .element-CL {
+  position: absolute;
+  width: 89px;
+  top: 26px;
+  left: 282px;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .text-wrapper-5 {
+  position: absolute;
+  width: 89px;
+  top: 85px;
+  left: 282px;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .text-wrapper-6 {
+  position: absolute;
+  width: 96px;
+  top: 144px;
+  left: 275px;
+  font-family: "Helvetica-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 0.1px;
+}
+
+.produktside-mockup .l-farver {
+  position: absolute;
+  width: 237px;
+  height: 20px;
+  top: 197px;
+  left: 134px;
+}
+
+.produktside-mockup .ellipse {
+  left: 217px;
+  background-color: #d1732b;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .ellipse-2 {
+  left: 186px;
+  background-color: #e0912c;
+  border: 2px solid;
+  border-color: #000000;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .ellipse-3 {
+  left: 155px;
+  background-color: #e59d2f;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .ellipse-4 {
+  left: 124px;
+  background-color: #eeac35;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .ellipse-5 {
+  left: 93px;
+  background-color: #f4bf48;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .ellipse-6 {
+  left: 62px;
+  background-color: #f7ce5d;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .ellipse-7 {
+  left: 31px;
+  background-color: #f8e075;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .ellipse-8 {
+  left: 0;
+  background-color: #f8f4b7;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  border-radius: 10px;
+}
+
+.produktside-mockup .footer {
+  position: absolute;
+  width: 432px;
+  height: 219px;
+  top: 1220px;
+  left: 0;
+  background-color: transparent;
+}
+
+.produktside-mockup .overlap-3 {
+  position: relative;
+  width: 430px;
+  height: 219px;
+}
+
+.produktside-mockup .rectangle {
+  position: absolute;
+  width: 430px;
+  height: 215px;
+  top: 4px;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.produktside-mockup .adresse-tlf-email {
+  position: absolute;
+  width: 64px;
+  top: 0;
+  left: 24px;
+  font-family: "Tahoma-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 59px;
+}
+
+.produktside-mockup .vector {
+  position: absolute;
+  width: 41px;
+  height: 40px;
+  top: 84px;
+  left: 337px;
+}
+
+.produktside-mockup .vector-2 {
+  position: absolute;
+  width: 43px;
+  height: 40px;
+  top: 84px;
+  left: 275px;
+}
+
+.produktside-mockup .logo {
+  position: absolute;
+  width: 52px;
+  height: 68px;
+  top: 56px;
+  left: 189px;
+  object-fit: cover;
+}
+user-menu {
+  position: absolute;
+  top: 50px; 
+  left: 0;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.user-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.user-menu a:hover {
+  background-color: #f2f2f2;
+}
